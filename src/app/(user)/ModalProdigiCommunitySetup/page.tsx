@@ -50,7 +50,6 @@ const ModalProdigiCommunitySetup = ({ onClose }: { onClose: () => void }) => {
           <div className="space-y-5">
             <ModalStep1 />
             <ModalStep2 />
-            <ModalStep3 />
           </div>
 
           <DontShowAgainCheckbox
