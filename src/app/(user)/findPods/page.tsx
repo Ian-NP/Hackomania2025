@@ -113,7 +113,7 @@ const PodFinder = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-4">
             {pods.map((pod) => (
               <PodCard 
-                key={pod.uid} 
+                key={pod.id} 
                 pod={pod} 
                 onClick={() => setSelectedPod(pod)} 
               />
