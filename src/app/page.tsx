@@ -10,16 +10,7 @@ const ProdigiCommunity = () => {
   const [sidebarOpen, setSidebarOpen] = useState<boolean>(false);
 
   const communities = [
-    {
-      title: "Technology",
-      description:
-        "Learn programming, web development, and more. Perfect for beginners!",
-      members: 5234,
-      activePods: 142,
-      isSelected: true,
-    },
-    {
-      title: "Academics",
+
       description:
         "Study groups, academic resources, and peer support for students.",
       members: 3876,

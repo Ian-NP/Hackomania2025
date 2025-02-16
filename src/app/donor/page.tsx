@@ -7,7 +7,12 @@ import { Label } from '@/styles/components/ui/label';
 import { Loader2, CheckCircle2, XCircle, ArrowLeft } from 'lucide-react';
 
 export default function PaymentsPage() {
-
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState('');
+    const [status, setStatus] = useState(null); // 'success', 'rejected', or null
+    const [amount, setAmount] = useState('');
+    const [walletId, setWalletId] = useState('');
+    const [grantUrl, setGrantUrl] = useState('');
 
     useEffect(() => {
         const urlParams = new URLSearchParams(window.location.search);
