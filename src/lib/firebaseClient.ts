@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey:
+    apiKey: "AIzaSyCHF5AS5PhUvMGgqYHTpLGtaaBNHRniEt0",
     authDomain: "prodigi-e9dbf.firebaseapp.com",
     databaseURL: "https://prodigi-e9dbf-default-rtdb.asia-southeast1.firebasedatabase.app",
     projectId: "prodigi-e9dbf",
